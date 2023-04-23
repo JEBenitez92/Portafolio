@@ -1,0 +1,209 @@
+:root {
+    --color-fondo-columna-contacto: #370617;
+    --color-texto-cv: #f3f4fa;
+    --boton-activo: #f1ede7;
+    --fondo-boton-activo: #D00000;
+    --color-enlaces: #E85D04;
+  }
+
+.contenedorColumnas {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    width: 100%;
+    height: 100vh;
+}
+
+.contenerdorContactame {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: var(--color-fondo-columna-contacto);
+    color: var(--color-texto-cv);
+}
+
+.contenedorH1Contacto {
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 2rem;
+}
+
+.contenedorGithub{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .ImagenGithub {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    background-image: url("./Imagenes/Github.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+  }
+  
+  .EnlaceGithub{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .EnlaceGithub a {
+    color: var(--color-enlaces);
+  }
+
+  .contenedroLikedin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .ImagenLikedin {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    background-image: url("./Imagenes/likedin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+  }
+  
+  .EnlaceLinkedin{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .EnlaceLinkedin a {
+    color: var(--color-enlaces);
+  }
+
+  .contenedorCorreo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .EnlaceCorreo{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .EnlaceCorreo a {
+    color: var(--color-enlaces);
+  }
+  
+  .ImagenCorreo {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 2.5rem;
+    height: 3rem;
+    margin: 0;
+    padding: 0;
+    background-image: url("./Imagenes/Correo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10rem;
+  }
+  
+  .contenedorWhatsapp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .ImagenWhatsapp {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    background-image: url("./Imagenes/Whatsapp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .EnlaceWhatsapp{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .EnlaceWhatsapp a {
+    color: var(--color-enlaces);
+  }
+
+  .contenedroImagenYNombre {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    align-items: flex-start;
+  }
+
+  .imagen {
+    display: inline-block;
+    position: relative;
+    bottom: 0.8rem;
+    overflow: hidden;
+    width: 10rem;
+    height: 10rem;
+    background-image: url("./Imagenes/2023-03-22.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .contenedroH1Nombre {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .contenedorCuerpoCv {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  
