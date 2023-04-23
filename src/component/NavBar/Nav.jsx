@@ -1,9 +1,16 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import Style from "./Nav.module.css";
 
 function Nav() {
   return (
-    <div>
+    <div className={Style.contenedorGeneral}>
+
+      <div className={Style.contenedorTitulos}>
+        <h1>FullStack Developer</h1>
+      </div>
+
+      <div className={Style.contenedorBotones}>
       <Link to="/proyectos" >
       <button>
         Mi Trabajo
@@ -24,6 +31,7 @@ function Nav() {
             Salir
         </button>
       </Link>
+      </div>
     </div>
   )
 }

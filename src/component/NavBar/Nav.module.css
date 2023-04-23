@@ -1,0 +1,45 @@
+:root {
+  --color-fondo-NavBar: #03071e;
+  --color-texto: #f3f4fa;
+  --boton-activo: #f1ede7;
+  --fondo-boton-activo: #D00000;
+  --color-FullStackNav: #E85D04;
+}
+
+.contenedorGeneral {
+  display: flex;
+  height: 15vh;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  justify-items: center;
+  background-color: var(--color-fondo-NavBar);
+}
+
+.contenedorBotones {
+    position: relative;
+    padding-bottom: 10px;
+    left: 20%;
+}
+
+.contenedorBotones button {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contenedorBotones button:hover {
+    box-shadow: 0px 3px #e5990c;
+    cursor: pointer;
+}
+
+.contenedorBotones button:focus  {
+    color: var(--boton-activo);
+    background-color: var(--fondo-boton-activo);
+}
+
+.contenedorTitulos {
+    position: relative;
+    right: 25em;
+    bottom: 2em;
+    color: var(--color-FullStackNav);
+}
