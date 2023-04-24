@@ -7,7 +7,7 @@ function Nav() {
     <div className={Style.contenedorGeneral}>
 
       <div className={Style.contenedorTitulos}>
-        <h1>FullStack Developer</h1>
+        <h1>Full Stack Developer</h1>
       </div>
 
       <div className={Style.contenedorBotones}>
