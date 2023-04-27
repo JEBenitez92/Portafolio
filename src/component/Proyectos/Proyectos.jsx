@@ -65,7 +65,7 @@ function Proyectos() {
         <div className={Style.proyecto}>
           <h3>Henry-PF-FootWead</h3>
           <div className={Style.imagenPF} />
-          <a href="https://henry-pf-footwead-client-jebenitez92.vercel.app/">
+          <a href="https://henry-pf-footwead-client-jebenitez.vercel.app/">
             Henry-PF-FootWead
           </a>
           <p>
